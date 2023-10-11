@@ -16,6 +16,7 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 ### Lighthouse Accessibility Report Score
 
 * Provide a screenshot of your score after running a Lighthouse Accessibility report.
+![screenshot of report](/Users/alysondorfman/Projects/courses/code-201/about-me/Screenshot 2023-10-10 at 5.06.42 PM.png)
 
 ### Reflections and Comments
 
