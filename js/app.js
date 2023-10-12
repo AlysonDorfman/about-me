@@ -83,8 +83,6 @@ else {
   alert('Please only answer with y/n or yes/no, otherwise, your answer is counted as incorrect.')
 }
 
-// Final alert to spit back correct answer count back
-alert(`Not bad, ${userName}, you got ${countCorrectAnswers} out of 5 correct!`);
 
 
 // Question 6
@@ -98,6 +96,7 @@ for (let i=0; i<4; i++) {
   
   if (questionSixGuess === 35){
     alert('Yes! That is my age exactly!');
+    countCorrectAnswers += 1;
     break;
   }
   
@@ -113,6 +112,8 @@ if (guessCount === 4) {
   alert("Sorry, you've had four guesses, but the correct answer is 35.");
 }
 
+// Final alert to spit back correct answer count back
+alert(`Not bad, ${userName}, you got ${countCorrectAnswers} out of 7 correct!`);
 
 
 
