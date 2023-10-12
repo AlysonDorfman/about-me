@@ -70,7 +70,7 @@ else {
 
 
 // Fifth Question of Five
-let questionFiveGuess = prompt('Do like to play video games?').toLowerCase();
+let questionFiveGuess = prompt('Do I like to play video games?').toLowerCase();
 
 if(questionFiveGuess === 'n' || questionFiveGuess === 'no'){
   alert('You are correct! I never did get into them.');
@@ -83,6 +83,36 @@ else {
   alert('Please only answer with y/n or yes/no, otherwise, your answer is counted as incorrect.')
 }
 
-
 // Final alert to spit back correct answer count back
 alert(`Not bad, ${userName}, you got ${countCorrectAnswers} out of 5 correct!`);
+
+
+// Question 6
+
+let guessCount = 0;
+
+for (let i=0; i<4; i++) {
+
+  let questionSixGuess = prompt('How old am I?');
+  questionSixGuess = parseInt(questionSixGuess); 
+  
+  if (questionSixGuess === 35){
+    alert('Yes! That is my age exactly!');
+    break;
+  }
+  
+  else if (questionSixGuess > 35){
+    alert('Whoa, whoa, whoa, a little high there.')
+  }
+  else if (questionSixGuess < 35){
+    alert('I\'m flattered, but that guess is too low.')
+  }
+  guessCount++;
+}
+if (guessCount === 4) {
+  alert("Sorry, you've had four guesses, but the correct answer is 35.");
+}
+
+
+
+
