@@ -4,7 +4,7 @@
 
 ## About Me
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+This is a page about Alyson Dorfman with a fun question and answer guessing game. There are a series of 7 questions.
 
 ### Author: Alyson Dorfman
 
