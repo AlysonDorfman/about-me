@@ -112,9 +112,23 @@ if (guessCount === 4) {
 }
 
 
+// Question 7
 
+let countries = ['argentina', 'italy', 'france', 'mexico', 'canada', 'spain'];
 
-// Final alert to spit back correct answer count back
+for(let attempts = 6; attempts > 0; attempts--){
+  let countriesGuess = prompt('Name a country I have visited outside of the US.').toLowerCase();
+
+  for(let i=0; i<countries.length; i++) {
+    if(countriesGuess === countries[i]) {
+      alert('That\'s right, you got it!');
+      attempts = 0;
+      countCorrectAnswers += 1;
+      break;
+    }
+  }
+}
+
 alert(`Not bad, ${userName}, you got ${countCorrectAnswers} out of 7 correct!`);
 
 
