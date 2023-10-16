@@ -92,14 +92,13 @@ let guessCount = 0;
 for (let i=0; i<4; i++) {
 
   let questionSixGuess = prompt('How old am I?');
-  questionSixGuess = parseInt(questionSixGuess); 
-  
+  questionSixGuess = parseInt(questionSixGuess);
+
   if (questionSixGuess === 35){
     alert('Yes! That is my age exactly!');
     countCorrectAnswers += 1;
     break;
   }
-  
   else if (questionSixGuess > 35){
     alert('Whoa, whoa, whoa, a little high there.')
   }
@@ -111,6 +110,9 @@ for (let i=0; i<4; i++) {
 if (guessCount === 4) {
   alert("Sorry, you've had four guesses, but the correct answer is 35.");
 }
+
+
+
 
 // Final alert to spit back correct answer count back
 alert(`Not bad, ${userName}, you got ${countCorrectAnswers} out of 7 correct!`);
